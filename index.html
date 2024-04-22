@@ -11,20 +11,33 @@
 <body>
     <div id="mindmap" style="width: 100%; height: 100vh;"></div>
     <script>
+        console.log('Starting fetch for Markdown file...');
         fetch('landscape.md')
-            .then(response => response.text())
+            .then(response => {
+                console.log('Markdown file fetched, processing response...');
+                if (!response.ok) {
+                    throw new Error('Failed to fetch the Markdown file: ' + response.statusText);
+                }
+                return response.text();
+            })
             .then(markdown => {
+                console.log('Markdown content:', markdown.substring(0, 100)); // Logs first 100 characters
                 const { Transformer } = window.markmap;
                 const transformer = new Transformer();
-
+                console.log('Transformer initialized, transforming markdown...');
+                
                 // Transform markdown to markmap data
                 const { root, features } = transformer.transform(markdown);
                 const assets = transformer.getUsedAssets(features);
 
+                console.log('Rendering Markmap...');
                 // Render the markmap
                 markmap.Markmap.create(document.querySelector('#mindmap'), null, root);
+                console.log('Markmap should be rendered.');
             })
-            .catch(error => console.error('Error loading the Markdown file:', error));
+            .catch(error => {
+                console.error('Error loading the Markdown file:', error);
+            });
     </script>
 </body>
 </html>
