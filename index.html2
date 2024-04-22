@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Mindmap</title>
+    <link rel="stylesheet" href="https://unpkg.com/markmap-view/dist/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.16"></script>
+</head>
+<body>
+    <div id="markmap-container" style="width: 100%; height: 100vh;"></div>
+    <script>
+        // Function to fetch Markdown and render Markmap
+        function fetchAndRenderMarkmap() {
+            fetch('/landscape.md')  // Replace 'landscape.md' with the path to your Markdown file
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to fetch the Markdown file: ' + response.statusText);
+                    }
+                    return response.text();
+                })
+                .then(markdown => {
+                    // Create a script element to hold the Markdown
+                    const script = document.createElement('script');
+                    script.type = 'text/template';
+                    script.textContent = markdown;
+
+                    // Append the script element to the div
+                    document.getElementById('markmap-container').appendChild(script);
+
+                    // Trigger the Markmap auto-loader
+                    window.markmap.autoLoader.run();
+                })
+                .catch(error => {
+                    console.error('Error loading the Markdown file:', error);
+                });
+        }
+
+        // Call the function on page load
+        fetchAndRenderMarkmap();
+    </script>
+</body>
+</html>
