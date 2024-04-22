@@ -4,40 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Mindmap</title>
-    <!-- Link to Markmap CSS for styling the mindmap -->
+    <!-- Correct link to Markmap CSS for styling -->
     <link rel="stylesheet" href="https://unpkg.com/markmap-view/dist/style.css">
-    <!-- Link to Markmap JS for rendering the mindmap -->
-    <script src="https://unpkg.com/markmap-lib/dist/view.js"></script>
+    <!-- Correct link to Markmap JavaScript for rendering -->
+    <script src="https://unpkg.com/markmap-view/dist/view.umd.js"></script>
 </head>
 <body>
     <div id="mindmap" style="width: 100%; height: 100vh;"></div>
     <script>
-        // Function to fetch and render the Markdown content as a mindmap
         function loadAndRenderMarkdown() {
             fetch('landscape.md')
                 .then(response => {
                     if (!response.ok) {
-                        // Check if the response is successful, if not throw an error
                         throw new Error('Failed to fetch the Markdown file: ' + response.statusText);
                     }
-                    return response.text(); // Return the text if successful
+                    return response.text();
                 })
                 .then(text => {
                     if (text.trim().length === 0) {
-                        // Check if the text is not empty
                         console.error('Markdown file is empty.');
                         return;
                     }
-                    // Initialize Markmap on the target div with fetched text
                     markmap.Markmap.create(document.querySelector('#mindmap'), null, text);
                 })
                 .catch(error => {
-                    // Log any errors during fetching or rendering
                     console.error('Error loading the Markdown file:', error);
                 });
         }
 
-        // Call the function to load and render the Markdown
         loadAndRenderMarkdown();
     </script>
 </body>
