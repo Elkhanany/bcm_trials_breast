@@ -1,9 +1,3 @@
----
-markmap:
-  initialExpandLevel: 6
-  maxWidth: 300
-  colorFreezeLevel: 6
----
 - MED ONC
   - Adjuvant
     - HER2
