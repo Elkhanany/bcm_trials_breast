@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Mindmap</title>
+    <link rel="stylesheet" href="https://unpkg.com/markmap-view/dist/style.css">
+    <script src="https://unpkg.com/markmap-lib/dist/view.js"></script>
+</head>
+<body>
+    <div id="mindmap"></div>
+    <script>
+        fetch('Trial Landscape.md')
+            .then(response => response.text())
+            .then(text => {
+                markmap.Markmap.create('#mindmap', null, text);
+            })
+            .catch(error => console.error('Error loading the Markdown file:', error));
+    </script>
+</body>
+</html>
