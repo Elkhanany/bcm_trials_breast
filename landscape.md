@@ -1,13 +1,13 @@
-- MED ONC
-  - Adjuvant
-    - HER2
+# MED ONC
+  ## Adjuvant
+    ### HER2
       - No Line
         - **FLAMINGO -01**
-          - * Stage I/II with nonpCR OR stage III (pCR or not) to be enorlled <90 days from completion of HP/TDM1 * TWO cohorst depending on HLA-A*02
+          - * Stage I/II with nonpCR OR stage III (pCR or not) to be enrolled <90 days from completion of HP/TDM1 * TWO cohorts depending on HLA-A*02
         - **CompassHER2 RD**
-          - * Prior NACT with 6 or more cycles of chemo (at least 9 weeks or THP). If was part of EA1181, must receive 2 more cycles of chemo * ER+ must be ypN+ (1/2/3) with ypT1/2/3. Weak ER+ can be ypN0. Will be randomized to TDM1 vs TDM1 and Tucatinib. May receive ≤ 1 cycle adjuvant T-DM1 prior to registration
+          - * Prior NACT with 6 or more cycles of chemo (at least 9 weeks or THP). If was part of EA1181, must receive 2 more cycles of chemo * ER+ must be ypN+ (1/2/3) with ypT1/2/3. Weak ER+ can be ypN0. Will be randomized to TDM1 vs TDM1 and Tucatinib. May receive ≤ 1 cycle adjuvant T-DM1 before registration
         - **CompassHER2 RD**
-          - * Prior NACT with 6 or more cycles of chemo (at least 9 weeks or THP). If was part of EA1181, must receive 2 more cycles of chemo * ER- can be ypT1/2/3 with ypN0/1/2/3. Will be randomized to TDM1 vs TDM1 and Tucatinib. May receive ≤ 1 cycle adjuvant T-DM1 prior to registration
+          - * Prior NACT with 6 or more cycles of chemo (at least 9 weeks or THP). If was part of EA1181, must receive 2 more cycles of chemo * ER- can be ypT1/2/3 with ypN0/1/2/3. Will be randomized to TDM1 vs TDM1 and Tucatinib. May receive ≤ 1 cycle adjuvant T-DM1 before registration
         - **ICE COMPRESS / SWOG S2205**
           - * NACT or Adjuvant Chemo with Taxanes (either weekly Taxol, Carbo Taxol or CarboTaxotere). * Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
     - HR POS
@@ -106,7 +106,7 @@
           - * ADH, ALH, LCIS or DCIS requiring excision. T1(mi) is allowed. If undergoing germline testing, results should be available prior to randomization * Ruxo vs Placebo for 15 days +/- 5 days. Surgery within 12 hours of last dose
         - **ICE COMPRESS / SWOG S2205**
           - * NACT or Adjuvant Chemo with Taxanes (either weekly Taxol, Carbo Taxol or CarboTaxotere). * Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
-- SURGERY
+# SURGERY
   - Peri-Surgical
     - No Group
       - No Line
