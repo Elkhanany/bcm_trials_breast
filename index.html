@@ -24,11 +24,12 @@
             const { Transformer } = window.markmap;
             const transformer = new Transformer();
             const { root, features } = transformer.transform(markdown);
+            const assets = transformer.getUsedAssets(features);
             console.log('Root node:', root);  // Debug: Check the structure
 
             const { Markmap, loadCSS, loadJS } = window.markmap;
-            if (assets.styles) assets.styles.forEach(style => loadCSS(style));  // Load styles
-            if (assets.scripts) loadJS(assets.scripts, { getMarkmap: () => markmap }, function() {
+            if (styles) loadCSS(styles);  // Load styles
+            if (scripts) loadJS(scripts, { getMarkmap: () => markmap }, function() {
                 // Ensure scripts are loaded before rendering
                 const svgElement = document.getElementById('markmap');
                 Markmap.create(svgElement, undefined, root);
