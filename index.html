@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Mindmap</title>
+    <!-- Load D3, Markmap-lib for transformation, and Markmap-view for rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.15"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markmap-view"></script>
 </head>
 <body>
-    <div id="markmap-container" style="width: 100%; height: 100vh;"></div>
-    <script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.15/dist/browser/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/markmap-render@latest/dist/browser/index.js"></script>
+    <svg id="markmap" style="width: 800px; height: 800px;"></svg>
     <script>
         function fetchAndRenderMarkmap() {
             fetch('https://elkhanany.github.io/bcm_trials_breast/landscape')
@@ -19,17 +21,21 @@
                 return response.text();
             })
             .then(markdown => {
-                const { Transformer } = markmap;
+                const { Transformer } = window.markmap;
                 const transformer = new Transformer();
                 const { root, features } = transformer.transform(markdown);
                 const assets = transformer.getUsedAssets(features);
 
-                const { fillTemplate } = markmap;  // Assuming fillTemplate is available globally
-                const html = fillTemplate(root, assets, {
-                    // Add any optional parameters as needed
-                });
+                // Now using markmap-view for rendering
+                const { Markmap, loadCSS, loadJS } = window.markmap;
+                
+                // Load styles and scripts required for Markmap
+                if (assets.styles) assets.styles.forEach(style => loadCSS(style));
+                if (assets.scripts) loadJS(assets.scripts, { getMarkmap: () => markmap });
 
-                document.getElementById('markmap-container').innerHTML = html;
+                // Create and render the Markmap into the SVG element
+                const svgElement = document.getElementById('markmap');
+                Markmap.create(svgElement, undefined, root);  // options can be undefined or specified
             })
             .catch(error => {
                 console.error('Error loading the Markdown file:', error);
