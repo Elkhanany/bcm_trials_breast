@@ -13,7 +13,7 @@
     <svg id="markmap" style="width: 800px; height: 800px;"></svg>
     <script>
         function fetchAndRenderMarkmap() {
-            fetch('https://elkhanany.github.io/bcm_trials_breast/landscape.md')
+            fetch('https://raw.githubusercontent.com/Elkhanany/bcm_trials_breast/main/landscape.md')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Failed to fetch the Markdown file: ' + response.statusText);
