@@ -28,8 +28,10 @@
             console.log('Root node:', root);  // Debug: Check the structure
 
             const { Markmap, loadCSS, loadJS } = window.markmap;
+            const styles = assets.styles;  // Get the styles from assets
+            const scripts = assets.scripts;  // Get the scripts from assets
             if (styles) loadCSS(styles);  // Load styles
-            if (scripts) loadJS(scripts, { getMarkmap: () => markmap }, function() {
+            if (scripts) loadJS(scripts, { getMarkmap: () => Markmap }, function() {
                 // Ensure scripts are loaded before rendering
                 const svgElement = document.getElementById('markmap');
                 Markmap.create(svgElement, undefined, root);
@@ -42,6 +44,3 @@
     }
 
     fetchAndRenderMarkmap();
-    </script>
-</body>
-</html>
