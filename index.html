@@ -10,43 +10,36 @@
     <script src="https://cdn.jsdelivr.net/npm/markmap-view"></script>
 </head>
 <body>
-    <svg id="markmap" style="width: 800px; height: 800px;"></svg>
+    <svg id="markmap" style="width: 100%; height: 100vh;"></svg>
     <script>
-        function fetchAndRenderMarkmap() {
-            fetch('https://raw.githubusercontent.com/Elkhanany/bcm_trials_breast/main/landscape.md')
-            .then(response => {
+        async function fetchAndRenderMarkmap() {
+            try {
+                const response = await fetch('https://raw.githubusercontent.com/Elkhanany/bcm_trials_breast/main/landscape.md');
                 if (!response.ok) {
                     throw new Error('Failed to fetch the Markdown file: ' + response.statusText);
                 }
-                return response.text();
-            })
-            .then(markdown => {
-                console.log('Fetched Markdown:', markdown);  // Debug: Check the fetched Markdown
+                const markdown = await response.text();
+                console.log('Fetched Markdown:', markdown);
 
                 const { Transformer } = window.markmap;
                 const transformer = new Transformer();
                 const { root, features } = transformer.transform(markdown);
                 const assets = transformer.getUsedAssets(features);
-                console.log('Root node:', root);  // Debug: Check the structure
-                console.log('Used assets:', assets);  // Debug: Check the used assets
+                console.log('Root node:', root);
+                console.log('Used assets:', assets);
 
                 const { Markmap, loadCSS, loadJS } = window.markmap;
-                const styles = assets.styles;  // Get the styles from assets
-                const scripts = assets.scripts;  // Get the scripts from assets
-                if (styles) loadCSS(styles);  // Load styles
-                if (scripts) loadJS(scripts, { getMarkmap: () => Markmap }, function() {
-                    // Ensure scripts are loaded before rendering
-                    const svgElement = document.getElementById('markmap');
-                    Markmap.create(svgElement, { 
-                        preserveAspectRatio: 'xMinYMin meet', // This will scale the SVG to fit the container
-                        viewBox: '-500 -500 1000 1000' // This will set the initial view of the Markmap
-                            }, root);
-                    console.log('Markmap rendered');  // Debug: Confirm rendering
-                });
-            })
-            .catch(error => {
+                if (assets.styles) loadCSS(assets.styles);
+                if (assets.scripts) await loadJS(assets.scripts, { getMarkmap: () => Markmap });
+
+                const svgElement = document.getElementById('markmap');
+                svgElement.setAttribute('preserveAspectRatio', 'xMinYMin meet');
+                svgElement.setAttribute('viewBox', '-500 -500 1000 1000');
+                Markmap.create(svgElement, undefined, root);
+                console.log('Markmap rendered');
+            } catch (error) {
                 console.error('Error loading the Markdown file:', error);
-            });
+            }
         }
 
         fetchAndRenderMarkmap();
