@@ -37,7 +37,10 @@
                 if (scripts) loadJS(scripts, { getMarkmap: () => Markmap }, function() {
                     // Ensure scripts are loaded before rendering
                     const svgElement = document.getElementById('markmap');
-                    Markmap.create(svgElement, undefined, root);
+                    Markmap.create(svgElement, { 
+                        preserveAspectRatio: 'xMinYMin meet', // This will scale the SVG to fit the container
+                        viewBox: '-500 -500 1000 1000' // This will set the initial view of the Markmap
+                            }, root);
                     console.log('Markmap rendered');  // Debug: Confirm rendering
                 });
             })
