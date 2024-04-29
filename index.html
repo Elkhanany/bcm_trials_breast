@@ -13,34 +13,40 @@
     <svg id="markmap" style="width: 800px; height: 800px;"></svg>
     <script>
         function fetchAndRenderMarkmap() {
-        fetch('https://elkhanany.github.io/bcm_trials_breast/landscape')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Failed to fetch the Markdown file: ' + response.statusText);
-            }
-            return response.text();
-        })
-        .then(markdown => {
-            const { Transformer } = window.markmap;
-            const transformer = new Transformer();
-            const { root, features } = transformer.transform(markdown);
-            const assets = transformer.getUsedAssets(features);
-            console.log('Root node:', root);  // Debug: Check the structure
+            fetch('https://elkhanany.github.io/bcm_trials_breast/landscape')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Failed to fetch the Markdown file: ' + response.statusText);
+                }
+                return response.text();
+            })
+            .then(markdown => {
+                console.log('Fetched Markdown:', markdown);  // Debug: Check the fetched Markdown
 
-            const { Markmap, loadCSS, loadJS } = window.markmap;
-            const styles = assets.styles;  // Get the styles from assets
-            const scripts = assets.scripts;  // Get the scripts from assets
-            if (styles) loadCSS(styles);  // Load styles
-            if (scripts) loadJS(scripts, { getMarkmap: () => Markmap }, function() {
-                // Ensure scripts are loaded before rendering
-                const svgElement = document.getElementById('markmap');
-                Markmap.create(svgElement, undefined, root);
-                console.log('Markmap rendered');  // Debug: Confirm rendering
+                const { Transformer } = window.markmap;
+                const transformer = new Transformer();
+                const { root, features } = transformer.transform(markdown);
+                const assets = transformer.getUsedAssets(features);
+                console.log('Root node:', root);  // Debug: Check the structure
+                console.log('Used assets:', assets);  // Debug: Check the used assets
+
+                const { Markmap, loadCSS, loadJS } = window.markmap;
+                const styles = assets.styles;  // Get the styles from assets
+                const scripts = assets.scripts;  // Get the scripts from assets
+                if (styles) loadCSS(styles);  // Load styles
+                if (scripts) loadJS(scripts, { getMarkmap: () => Markmap }, function() {
+                    // Ensure scripts are loaded before rendering
+                    const svgElement = document.getElementById('markmap');
+                    Markmap.create(svgElement, undefined, root);
+                    console.log('Markmap rendered');  // Debug: Confirm rendering
+                });
+            })
+            .catch(error => {
+                console.error('Error loading the Markdown file:', error);
             });
-        })
-        .catch(error => {
-            console.error('Error loading the Markdown file:', error);
-        });
-    }
+        }
 
-    fetchAndRenderMarkmap();
+        fetchAndRenderMarkmap();
+    </script>
+</body>
+</html>
