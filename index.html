@@ -11,7 +11,17 @@
 </head>
 <body>
     <svg id="markmap" style="width: 100%; height: 100vh;"></svg>
+    <button id="expandAll">Expand All</button>
     <script>
+        let markmapInstance;
+
+        function collapseAllNodes(node) {
+            if (node.children) {
+                node.children.forEach(collapseAllNodes);
+            }
+            node.state = { collapsed: true };
+        }
+
         async function fetchAndRenderMarkmap() {
             try {
                 const response = await fetch('https://raw.githubusercontent.com/Elkhanany/bcm_trials_breast/main/landscape.md');
@@ -24,6 +34,7 @@
                 const { Transformer } = window.markmap;
                 const transformer = new Transformer();
                 const { root, features } = transformer.transform(markdown);
+                collapseAllNodes(root);
                 const assets = transformer.getUsedAssets(features);
                 console.log('Root node:', root);
                 console.log('Used assets:', assets);
@@ -35,12 +46,20 @@
                 const svgElement = document.getElementById('markmap');
                 svgElement.setAttribute('preserveAspectRatio', 'xMinYMin meet');
                 svgElement.setAttribute('viewBox', '-500 -500 1000 1000');
-                Markmap.create(svgElement, undefined, root);
+                markmapInstance = Markmap.create(svgElement, undefined, root);
                 console.log('Markmap rendered');
             } catch (error) {
                 console.error('Error loading the Markdown file:', error);
             }
         }
+
+        function expandAllNodes() {
+            if (markmapInstance) {
+                markmapInstance.expandAll();
+            }
+        }
+
+        document.getElementById('expandAll').addEventListener('click', expandAllNodes);
 
         fetchAndRenderMarkmap();
     </script>
