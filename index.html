@@ -47,6 +47,7 @@
                 svgElement.setAttribute('preserveAspectRatio', 'xMinYMin meet');
                 svgElement.setAttribute('viewBox', '-500 -500 1000 1000');
                 markmapInstance = Markmap.create(svgElement, undefined, root);
+                markmapInstance.fit(); 
                 console.log('Markmap rendered');
             } catch (error) {
                 console.error('Error loading the Markdown file:', error);
