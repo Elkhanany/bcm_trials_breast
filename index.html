@@ -47,7 +47,10 @@
                 svgElement.setAttribute('preserveAspectRatio', 'xMinYMin meet');
                 svgElement.setAttribute('viewBox', '-500 -500 1000 1000');
                 markmapInstance = Markmap.create(svgElement, undefined, root);
-                markmapInstance.fit(); 
+                markmapInstance.nodesSelection.selectAll('g.node').each(function() {
+                    this.__data__.state.collapsed = true;
+                });
+                markmapInstance.update(); 
                 console.log('Markmap rendered');
             } catch (error) {
                 console.error('Error loading the Markdown file:', error);
@@ -61,7 +64,6 @@
         }
 
         document.getElementById('expandAll').addEventListener('click', expandAllNodes);
-
         fetchAndRenderMarkmap();
     </script>
 </body>
