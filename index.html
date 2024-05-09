@@ -45,7 +45,7 @@
 
                 const svgElement = document.getElementById('markmap');
                 svgElement.setAttribute('preserveAspectRatio', 'xMinYMin meet');
-                svgElement.setAttribute('viewBox', '-500 -500 1000 1000');
+                svgElement.setAttribute('viewBox', '0 0 100 100');
                 markmapInstance = Markmap.create(svgElement, undefined, root);
                 markmapInstance.nodesSelection.selectAll('g.node').each(function() {
                     this.__data__.state.collapsed = true;
