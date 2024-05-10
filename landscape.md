@@ -1,13 +1,13 @@
 ---
 markmap:
-  initialExpandLevel: 2
+  initialExpandLevel: 6
   maxWidth: 300
-  colorFreezeLevel: 6
+  colorFreezeLevel: 4
 ---
 - MED ONC
   - Adjuvant
     - HER2
-      - 
+      - NO LINE
         - **FLAMINGO -01**
           - * Stage I/II with nonpCR OR stage III (pCR or not) to be enorlled <90 days from completion of HP/TDM1 * TWO cohorst depending on HLA-A*02
         - **CompassHER2 RD**
@@ -17,7 +17,7 @@ markmap:
         - **ICE COMPRESS / SWOG S2205**
           - * NACT or Adjuvant Chemo with Taxanes (either weekly Taxol, Carbo Taxol or CarboTaxotere). * Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
     - HR POS
-      - 
+      - NO LINE
         - **CAMBRIA-1**
           - * Intermediate and High risk to randomize between adjuvant year 2 : 5 to either continue adj. ET SoC vs oral SERD * Intermediate: T3 N0 | T1c/T2 N1 [2-3 LN] | T1c/T2 N0 (Grade III, KI67 >= 20%, LumB/RS26, or prior chemotherapy) * High: Stage III | T1c/T2 N1 [2-3] (Grade III, KI67 >= 20%, LumB/RS26) | T1c/T2 N1 [1/3] (Grade III, KI67 >= 20%, LumB/RS26)
         - **ICE COMPRESS / SWOG S2205**
@@ -25,7 +25,7 @@ markmap:
         - _OFSET (NRG BR009)_
           - * ER+ (>1%) HER2- with pT1-3 pN0-1. * RS N1 <26. RS N0 21-25. RS N0 16-20 WITH T minimum at 30mm (G1), 20mm (G2) or 10mm (G3)
     - TNBC
-      - 
+      - NO LINE
         - **ICE COMPRESS / SWOG S2205**
           - * NACT or Adjuvant Chemo with Taxanes (either weekly Taxol, Carbo Taxol or CarboTaxotere). * Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
         - _Optimize-PCR (A012103)_
@@ -79,7 +79,7 @@ markmap:
           - * HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA) * Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines.
   - Neoadjuvant
     - HER2
-      - 
+      - NO LINE
         - **RESPONSE**
           - * 1ry 20mm or more (T2 N0 and higher) by exam or imaging. Excludes IBC and BL cancers * Will receive weekly Taxol HP with ddAC
         - **MARGOT / TBCRC052**
@@ -87,7 +87,7 @@ markmap:
         - **ICE COMPRESS / SWOG S2205**
           - * NACT or Adjuvant Chemo with Taxanes (either weekly Taxol, Carbo Taxol or CarboTaxotere). * Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
     - HR POS
-      - 
+      - NO LINE
         - **RESPONSE**
           - * 1ry 20mm or more (T2 N0 and higher) by exam or imaging. Excludes IBC and BL cancers * High Risk ER+ (Grade III, Age <50, ER < 6/8 OR Ki67 >29%). Will receive weekly Taxol with ddAC
         - **TBCRC042**
@@ -103,7 +103,7 @@ markmap:
         - _S2206_
           - * High 2 on MP
     - TNBC
-      - 
+      - NO LINE
         - **RESPONSE**
           - * 1ry 20mm or more (T2 N0 and higher) by exam or imaging. Excludes IBC and BL cancers * Will receive weekly Taxol with ddAC (Pembro added if indicated, Carbo added if T3)
         - **TBCRC042**
@@ -115,13 +115,13 @@ markmap:
 - RAD ONC
   - Adjuvant
     - HR POS
-      - 
+      - NO LINE
         - **MA39**
           - 1) Newly Diagnosis of IDC w/ no metastisis Treated with BCS or Mastectomy with no residual disease
 - SURG ONC
   - Peri-Surgical
-    - 
-      - 
+    - NO GROUP
+      - NO LINE
         - **CHEST**
           - Undergoing Mastectomy + Reconstruction
         - **Breast ATLAS**
@@ -133,13 +133,13 @@ markmap:
         - **Magellan**
           - 1) Non-metastatic patients with node positive breast cancer (cT0-4, N1) 2) Magseed placement prior to NAC
   - Postsurgical
-    - 
-      - 
+    - NO GROUP
+      - NO LINE
         - _PREDICT II_
           - * Dx of DCIS w/ tumor size <6cm * Eligible for BCS, radiation and/or systemic treatment
   - Presurgical
-    - 
-      - 
+    - NO GROUP
+      - NO LINE
         - **ATUSA-iSONO**
           - 1) Women with a suspected breast lesion in one of both breasts 2) Disease T1c or larger
         - **BCM TISSUE COLLECTION**
