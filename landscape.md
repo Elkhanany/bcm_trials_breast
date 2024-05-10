@@ -1,8 +1,8 @@
 ---
 markmap:
-  initialExpandLevel: 6
+  initialExpandLevel: 2
   maxWidth: 300
-  colorFreezeLevel: 4
+  colorFreezeLevel: 6
 ---
 - MED ONC
   - Adjuvant
