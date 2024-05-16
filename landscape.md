@@ -22,7 +22,7 @@ markmap:
           - * Intermediate and High risk to randomize between adjuvant year 2 : 5 to either continue adj. ET SoC vs oral SERD * Intermediate: T3 N0 | T1c/T2 N1 [2-3 LN] | T1c/T2 N0 (Grade III, KI67 >= 20%, LumB/RS26, or prior chemotherapy) * High: Stage III | T1c/T2 N1 [2-3] (Grade III, KI67 >= 20%, LumB/RS26) | T1c/T2 N1 [1/3] (Grade III, KI67 >= 20%, LumB/RS26)
         - **ICE COMPRESS / SWOG S2205**
           - * NACT or Adjuvant Chemo with Taxanes (either weekly Taxol, Carbo Taxol or CarboTaxotere). * Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
-        - _OFSET (NRG BR009)_
+        - **OFSET (NRG BR009)**
           - * ER+ (>1%) HER2- with pT1-3 pN0-1. * RS N1 <26. RS N0 21-25. RS N0 16-20 WITH T minimum at 30mm (G1), 20mm (G2) or 10mm (G3)
     - TNBC
       - NO LINE
