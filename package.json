@@ -1,0 +1,16 @@
+{
+  "name": "bcm_trials_breast",
+  "version": "1.0.0",
+  "description": "Find the page [here](https://elkhanany.github.io/bcm_trials_breast/landscape)",
+  "main": "generate-markmap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "markmap-lib": "^0.17.0",
+    "markmap-render": "^0.17.0"
+  }
+}
