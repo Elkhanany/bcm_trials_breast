@@ -1,9 +1,9 @@
 ---
 title: BCM Breast Cancer Trials
 markmap:
-  initialExpandLevel: 6
+  initialExpandLevel: 3
   maxWidth: 300
-  colorFreezeLevel: 4
+  colorFreezeLevel: 6
 ---
 - MED ONC
   - Adjuvant
