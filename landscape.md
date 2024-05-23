@@ -83,8 +83,6 @@ markmap:
       - NO LINE
         - **RESPONSE**
           - * 1ry 20mm or more (T2 N0 and higher) by exam or imaging. Excludes IBC and BL cancers * Will receive weekly Taxol HP with ddAC
-        - MARGOT / TBCRC052
-          - * Stage IIB / III HER2+ Breast cancer recieing NACT. Stage IIA has to have 1ry > 15mm * Low affinity CD16A Genotype FF or FV (Prior to enrollment) from germline PBMNs
         - **ICE COMPRESS / SWOG S2205**
           - * NACT or Adjuvant Chemo with Taxanes (either weekly Taxol, Carbo Taxol or CarboTaxotere). * Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
     - HR POS
