@@ -57,12 +57,12 @@ markmap:
         - **ELAINE-III**
           - 1) Progression on 1st Line CDK4/6. ESR1 mutation
         - _OPERA-1_
-          - * Post 1st Line of ET/CDK either Denovo or relapse after 2 years (min) of ET therapy * Part A three arm for OP 120, OP 90 and SoC. Part B is OP vs SoC [Faslo or AI]
+          - * Post 1st Line progression while on ET/CDK , adjuvant ET or within 2 years post ET. No prior Chemo in Stage 4. * Part A three arm for OP 120, OP 90 and SoC. Part B is OP vs SoC [Faslo or AI]
         - **VISTA**
           - * HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA) * Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines.
       - 3
         - _OPERA-1_
-          - * Post 1st Line of ET/CDK either Denovo or relapse after 2 years (min) of ET therapy * Part A three arm for OP 120, OP 90 and SoC. Part B is OP vs SoC [Faslo or AI] * If 2nd line was Faslo, 3rd line SoC can be AI
+          - * Post 2 Lines Line of ET, lasting at least 6 months. No prior Chemo in Stage 4. * Part A three arm for OP 120, OP 90 and SoC. Part B is OP vs SoC [Faslo or AI] * If 2nd line was Faslo, 3rd line SoC can be AI
         - **VISTA**
           - * HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA) * Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines.
       - 4
@@ -145,3 +145,9 @@ markmap:
           - Suspicious lesion receiving an U/S guided biopsy with birads 4b-5
         - **ANGEL**
           - 1) Any suspicious lesion receiving a biopsy
+- UPCOMING
+  - Neoadjuvant
+    - HR POS
+      - NO LINE
+        - _CDK4i PF0060_
+          - 1) T1 to T3, with smallest size 15mm. Any N. Excludes T4 and N3
