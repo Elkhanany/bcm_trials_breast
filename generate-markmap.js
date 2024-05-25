@@ -19,7 +19,8 @@ const assets = transformer.getUsedAssets(features);
 
 // Define JSON options
 const jsonOptions = {
-  initialExpandLevel: 3 // Collapse all nodes
+  initialExpandLevel: 3, // Collapse all nodes
+  maxWidth: 200 // Set max width for text wrapping
 };
 
 // Generate HTML
