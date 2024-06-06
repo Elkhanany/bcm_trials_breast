@@ -118,7 +118,7 @@ markmap:
         - **ELAINE-III**
           
              - [x] Progression on 1st Line CDK4/6. ESR1 mutation
-        - _OPERA-1_
+        - **OPERA-1**
           
              - [x] Post 1st Line progression while on ET/CDK , adjuvant ET or within 2 years post ET. No prior Chemo in Stage 4. 
           
@@ -131,7 +131,7 @@ markmap:
           
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
       - 3
-        - _OPERA-1_
+        - **OPERA-1**
           
              - [x] Post 2 Lines Line of ET, lasting at least 6 months. No prior Chemo in Stage 4. 
           
