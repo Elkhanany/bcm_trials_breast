@@ -83,11 +83,6 @@ markmap:
           
              - [x] T1 to T3, with smallest size 6mm. Any N
   - Metastatic
-    - NO GROUP
-      - 1
-        - _TROPION-Breast05_
-          
-             - [x] PDL1 centrally confirmed TNBC
     - HER2
       - 1
         - STOPHER2 / TBCRC 062
@@ -127,6 +122,11 @@ markmap:
           
           
              - [x] If 2nd line was Faslo, 3rd line SoC can be AI
+    - TNBC
+      - 1
+        - _TROPION-Breast05_
+          
+             - [x] PDL1 centrally confirmed TNBC
   - Neoadjuvant
     - HER2
       - NO LINE
