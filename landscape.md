@@ -33,6 +33,9 @@ markmap:
           
           
              - [x] Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
+        - _FLEX_
+          
+             - [x] T1 to T3, with smallest size 6mm. Any N
     - HR POS
       - NO LINE
         - **CAMBRIA-1**
@@ -56,6 +59,9 @@ markmap:
           
           
              - [x] RS N1 <26. RS N0 21-25. RS N0 16-20 WITH T minimum at 30mm (G1), 20mm (G2) or 10mm (G3)
+        - _FLEX_
+          
+             - [x] T1 to T3, with smallest size 6mm. Any N
     - TNBC
       - NO LINE
         - **ICE COMPRESS / SWOG S2205**
@@ -73,6 +79,9 @@ markmap:
         - _ASCENT-05_
           
              - [x] TNBC (<10%) with residual disease 
+        - _FLEX_
+          
+             - [x] T1 to T3, with smallest size 6mm. Any N
   - Metastatic
     - HER2
       - 1
@@ -190,6 +199,9 @@ markmap:
           
           
              - [x] Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
+        - _FLEX_
+          
+             - [x] T1 to T3, with smallest size 6mm. Any N
     - HR POS
       - NO LINE
         - **RESPONSE**
@@ -228,6 +240,12 @@ markmap:
         - _S2206_
           
              - [x] High 2 on MP
+        - _CDK4i PF0060_
+          
+             - [x] T1 to T3, with smallest size 15mm. Any N. Excludes T4 and N3
+        - _FLEX_
+          
+             - [x] T1 to T3, with smallest size 6mm. Any N
     - TNBC
       - NO LINE
         - **RESPONSE**
@@ -254,6 +272,9 @@ markmap:
           
           
              - [x] No Stage IIIC, IIIB T4 N+ OR IBC
+        - _FLEX_
+          
+             - [x] T1 to T3, with smallest size 6mm. Any N
 - RAD ONC
   - Adjuvant
     - HR POS
@@ -262,6 +283,15 @@ markmap:
           
              - [x] Newly Diagnosis of IDC w/ no metastisis 
           Treated with BCS or Mastectomy with no residual disease 
+  - Postsurgical
+    - NO GROUP
+      - NO LINE
+        - _PREDICT II_
+          
+             - [x] Dx of DCIS w/ tumor size <6cm
+          
+          
+             - [x] Eligible for BCS, radiation and/or systemic treatment
 - SURG ONC
   - Peri-Surgical
     - NO GROUP
@@ -290,15 +320,6 @@ markmap:
           
           
              - [x] Magseed placement prior to NAC
-  - Postsurgical
-    - NO GROUP
-      - NO LINE
-        - _PREDICT II_
-          
-             - [x] Dx of DCIS w/ tumor size <6cm
-          
-          
-             - [x] Eligible for BCS, radiation and/or systemic treatment
   - Presurgical
     - NO GROUP
       - NO LINE
@@ -314,39 +335,3 @@ markmap:
         - **ANGEL**
           
              - [x] Any suspicious lesion receiving a biopsy
-- UPCOMING
-  - Adjuvant
-    - HER2
-      - NO LINE
-        - _FLEX_
-          
-             - [x] T1 to T3, with smallest size 6mm. Any N
-    - HR POS
-      - NO LINE
-        - _FLEX_
-          
-             - [x] T1 to T3, with smallest size 6mm. Any N
-    - TNBC
-      - NO LINE
-        - _FLEX_
-          
-             - [x] T1 to T3, with smallest size 6mm. Any N
-  - Neoadjuvant
-    - HER2
-      - NO LINE
-        - _FLEX_
-          
-             - [x] T1 to T3, with smallest size 6mm. Any N
-    - HR POS
-      - NO LINE
-        - _CDK4i PF0060_
-          
-             - [x] T1 to T3, with smallest size 15mm. Any N. Excludes T4 and N3
-        - _FLEX_
-          
-             - [x] T1 to T3, with smallest size 6mm. Any N
-    - TNBC
-      - NO LINE
-        - _FLEX_
-          
-             - [x] T1 to T3, with smallest size 6mm. Any N
