@@ -85,7 +85,7 @@ markmap:
   - Metastatic
     - NO GROUP
       - 1
-        - _TROPION-Breast05)_
+        - _TROPION-Breast05_
           
              - [x] PDL1 centrally confirmed TNBC
     - HER2
