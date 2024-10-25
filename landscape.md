@@ -70,13 +70,13 @@ markmap:
           
           
              - [x] Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
-        - _Optimize-PCR (A012103)_
+        - _OptimICE-PCR_
           
-             - [x] TNBC (<10%)  T1cN1-2 or T2-4N0-2 with ypT0 OR ypTis
+             - [x] TNBC (ER/PR <10%)  T1cN1-2 or T2-4N0-2 with ypT0 OR ypTis
           
           
              - [x] Adju RT  and Pembro, followed by registration
-        - _ASCENT-05_
+        - _ASCENT-05 (NASBP)_
           
              - [x] TNBC (<10%) with residual disease 
         - _FLEX_
@@ -102,10 +102,15 @@ markmap:
           
           
              - [x] BRCA1/2 OR PALB2 (either germline or somatic) 
+        - _TBCRC 064_
+          
       - 2
         - **ELAINE-III**
           
              - [x] Progression on 1st Line CDK4/6. ESR1 mutation
+          
+          
+             - [x] No priot Abema in adjuvant or metastatic setting
         - **OPERA-1**
           
              - [x] Post 1st Line progression while on ET/CDK , adjuvant ET or within 2 years post ET. No prior Chemo in Stage 4. 
@@ -127,6 +132,19 @@ markmap:
         - _TROPION-Breast05_
           
              - [x] PDL1 centrally confirmed TNBC
+        - **TBCRC 061**
+          
+             - [x] Receipt of Immunotherapy in the advanced setting
+        - _TBCRC 064_
+          
+      - 2
+        - **TBCRC 061**
+          
+             - [x] Receipt of Immunotherapy in the advanced setting
+      - 3
+        - **TBCRC 061**
+          
+             - [x] Receipt of Immunotherapy in the advanced setting
   - Neoadjuvant
     - HER2
       - NO LINE
@@ -153,12 +171,6 @@ markmap:
           
           
              - [x] High Risk ER+ (Grade III, Age <50, ER < 6/8 OR Ki67 >29%). Will receive weekly Taxol with ddAC
-        - **TBCRC042**
-          
-             - [x] ADH, ALH, LCIS or DCIS requiring excision. T1(mi) is allowed. If undergoing germline testing, results should be available prior to randomization
-          
-          
-             - [x] Ruxo vs Placebo for 15 days +/- 5 days. Surgery within 12 hours of last dose
         - _EVANGELINE_
           
              - [x] Clinical T2 or T3 and N0 or N1 with Grade I and II
@@ -180,12 +192,15 @@ markmap:
           
           
              - [x] T1c (Min size 15mm) N0/N1/N2
-        - _S2206_
+        - **S2206**
+          
+             - [x] Stage II and III, including IBC. ER+ or PR+ per CAP (>1%)
+          
           
              - [x] High 2 on MP
         - _CDK4i PF0060_
           
-             - [x] T1 to T3, with smallest size 15mm. Any N. Excludes T4 and N3
+             - [x] T1 to T3 POSTMENOpausal, with smallest size 15mm. Any N. Excludes T4 and N3
         - _FLEX_
           
              - [x] T1 to T3, with smallest size 6mm. Any N
@@ -197,27 +212,31 @@ markmap:
           
           
              - [x] Will receive weekly Taxol with ddAC (Pembro added if indicated, Carbo added if T3)
-        - **TBCRC042**
-          
-             - [x] ADH, ALH, LCIS or DCIS requiring excision. T1(mi) is allowed. If undergoing germline testing, results should be available prior to randomization
-          
-          
-             - [x] Ruxo vs Placebo for 15 days +/- 5 days. Surgery within 12 hours of last dose
         - **ICE COMPRESS / SWOG S2205**
           
              - [x] NACT or Adjuvant Chemo with Taxanes (either weekly Taxol, Carbo Taxol or CarboTaxotere).
           
           
              - [x] Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
-        - _S2212_
+        - S2212
           
-             - [x] TNBC (<5%) with T2-T4 N0 OR T1-T3 N1-N2. 
+             - [x] TNBC (ER/PR <5%) with T2-T4 N0 OR T1-T3 N1-N2. Randomized to either KN522 versus Taxotere Carbo  Pembro x 6 Cycles
           
           
              - [x] No Stage IIIC, IIIB T4 N+ OR IBC
         - _FLEX_
           
              - [x] T1 to T3, with smallest size 6mm. Any N
+- Med Onc
+  - Metastatic
+    - HR POS
+      - 2
+        - _TBCRC 064_
+          
+    - TNBC
+      - 2
+        - _TBCRC 064_
+          
 - RAD ONC
   - Adjuvant
     - HR POS
