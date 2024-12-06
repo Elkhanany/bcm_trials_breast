@@ -2,4 +2,4 @@
 node_modules/
 
 # Ignore the directory containing the sensitive Python script
-scripts/scripts/credentials.json
+scripts/
