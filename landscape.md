@@ -33,7 +33,7 @@ markmap:
           
           
              - [x] Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
-        - _FLEX_
+        - FLEX
           
              - [x] T1 to T3, with smallest size 6mm. Any N
     - HR POS
@@ -59,7 +59,7 @@ markmap:
           
           
              - [x] RS N1 <26. RS N0 21-25. RS N0 16-20 WITH T minimum at 30mm (G1), 20mm (G2) or 10mm (G3)
-        - _FLEX_
+        - FLEX
           
              - [x] T1 to T3, with smallest size 6mm. Any N
     - TNBC
@@ -76,10 +76,10 @@ markmap:
           
           
              - [x] Adju RT  and Pembro, followed by registration
-        - _ASCENT-05 (NASBP)_
+        - ASCENT-05 (NASBP)
           
              - [x] TNBC (<10%) with residual disease 
-        - _FLEX_
+        - FLEX
           
              - [x] T1 to T3, with smallest size 6mm. Any N
   - Metastatic
@@ -117,13 +117,13 @@ markmap:
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
     - HR POS
       - 1
-        - _EvoPAR-Breast01_
+        - EvoPAR-Breast01
           
              - [x] DenoVo metastatic opr 1ry resistant ER+ (>1%)
           
           
              - [x] BRCA1/2 OR PALB2 (either germline or somatic) 
-        - _TBCRC 064_
+        - TBCRC 064
           
       - 2
         - **ELAINE-III**
@@ -144,7 +144,7 @@ markmap:
           
           
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
-        - _TBCRC 064_
+        - TBCRC 064
           
       - 3
         - **OPERA-1**
@@ -174,7 +174,7 @@ markmap:
         - **TBCRC 061**
           
              - [x] Receipt of Immunotherapy in the advanced setting
-        - _TBCRC 064_
+        - TBCRC 064
           
       - 2
         - **VISTA**
@@ -186,7 +186,7 @@ markmap:
         - **TBCRC 061**
           
              - [x] Receipt of Immunotherapy in the advanced setting
-        - _TBCRC 064_
+        - TBCRC 064
           
       - 3
         - **VISTA**
@@ -220,7 +220,7 @@ markmap:
           
           
              - [x] Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
-        - _FLEX_
+        - FLEX
           
              - [x] T1 to T3, with smallest size 6mm. Any N
     - HR POS
@@ -231,22 +231,19 @@ markmap:
           
           
              - [x] High Risk ER+ (Grade III, Age <50, ER < 6/8 OR Ki67 >29%). Will receive weekly Taxol with ddAC
-        - _EVANGELINE_
+        - EVANGELINE
           
              - [x] Clinical T2 or T3 and N0 or N1 with Grade I and II
           
           
              - [x] ER+ 67% or more, Allred 6-8
-        - TBCRC 037
-          
-             - [x] ILC ER+ POSTmenopausal. Tumor 10mm or more. No HRT in prior 2 years
         - **ICE COMPRESS / SWOG S2205**
           
              - [x] NACT or Adjuvant Chemo with Taxanes (either weekly Taxol, Carbo Taxol or CarboTaxotere).
           
           
              - [x] Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
-        - _NCBRE_
+        - NCBRE
           
              - [x] ILC ER+ PR+ HER2- with ERBB2 mutation.
           
@@ -261,7 +258,7 @@ markmap:
         - **CDK4i PF0060**
           
              - [x] T1 to T3 POSTMENOpausal, with smallest size 15mm. Any N. Excludes T4 and N3
-        - _FLEX_
+        - FLEX
           
              - [x] T1 to T3, with smallest size 6mm. Any N
     - TNBC
@@ -278,13 +275,13 @@ markmap:
           
           
              - [x] Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
-        - S2212
+        - **S2212**
           
              - [x] TNBC (ER/PR <5%) with T2-T4 N0 OR T1-T3 N1-N2. Randomized to either KN522 versus Taxotere Carbo  Pembro x 6 Cycles
           
           
              - [x] No Stage IIIC, IIIB T4 N+ OR IBC
-        - _FLEX_
+        - FLEX
           
              - [x] T1 to T3, with smallest size 6mm. Any N
 - RAD ONC
@@ -298,7 +295,7 @@ markmap:
   - Postsurgical
     - NO GROUP
       - NO LINE
-        - _PREDICT II_
+        - PREDICT II
           
              - [x] Dx of DCIS w/ tumor size <6cm
           
