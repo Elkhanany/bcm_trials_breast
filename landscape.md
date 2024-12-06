@@ -70,7 +70,7 @@ markmap:
           
           
              - [x] Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
-        - _OptimICE-PCR_
+        - **OptimICE-PCR**
           
              - [x] TNBC (ER/PR <10%)  T1cN1-2 or T2-4N0-2 with ypT0 OR ypTis
           
@@ -85,15 +85,36 @@ markmap:
   - Metastatic
     - HER2
       - 1
-        - STOPHER2 / TBCRC 062
+        - **STOPHER2 / TBCRC 062**
           
              - [x] On 1st Line ABC HER2+ for 3 or more years. If brain disease, has to be stable for 2 or more years
           
           
              - [x] Continue ET therapy. Can be enrolled if ET was changed
-        - STOPHER2 / TBCRC 062
+        - **STOPHER2 / TBCRC 062**
           
              - [x] On 1st Line ABC HER2+ for 3 or more years. If brain disease, has to be stable for 2 or more years
+      - 2
+        - **VISTA**
+          
+             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
+          
+          
+             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
+      - 3
+        - **VISTA**
+          
+             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
+          
+          
+             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
+      - 4
+        - **VISTA**
+          
+             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
+          
+          
+             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
     - HR POS
       - 1
         - _EvoPAR-Breast01_
@@ -117,6 +138,14 @@ markmap:
           
           
              - [x] Part A three arm for OP 120, OP 90 and SoC. Part B is OP vs SoC [Faslo or AI]
+        - **VISTA**
+          
+             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
+          
+          
+             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
+        - _TBCRC 064_
+          
       - 3
         - **OPERA-1**
           
@@ -127,24 +156,55 @@ markmap:
           
           
              - [x] If 2nd line was Faslo, 3rd line SoC can be AI
+        - **VISTA**
+          
+             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
+          
+          
+             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
+      - 4
+        - **VISTA**
+          
+             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
+          
+          
+             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
     - TNBC
       - 1
-        - _TROPION-Breast05_
-          
-             - [x] PDL1 centrally confirmed TNBC
         - **TBCRC 061**
           
              - [x] Receipt of Immunotherapy in the advanced setting
         - _TBCRC 064_
           
       - 2
+        - **VISTA**
+          
+             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
+          
+          
+             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
         - **TBCRC 061**
           
              - [x] Receipt of Immunotherapy in the advanced setting
+        - _TBCRC 064_
+          
       - 3
+        - **VISTA**
+          
+             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
+          
+          
+             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
         - **TBCRC 061**
           
              - [x] Receipt of Immunotherapy in the advanced setting
+      - 4
+        - **VISTA**
+          
+             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
+          
+          
+             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
   - Neoadjuvant
     - HER2
       - NO LINE
@@ -198,7 +258,7 @@ markmap:
           
           
              - [x] High 2 on MP
-        - _CDK4i PF0060_
+        - **CDK4i PF0060**
           
              - [x] T1 to T3 POSTMENOpausal, with smallest size 15mm. Any N. Excludes T4 and N3
         - _FLEX_
@@ -227,16 +287,6 @@ markmap:
         - _FLEX_
           
              - [x] T1 to T3, with smallest size 6mm. Any N
-- Med Onc
-  - Metastatic
-    - HR POS
-      - 2
-        - _TBCRC 064_
-          
-    - TNBC
-      - 2
-        - _TBCRC 064_
-          
 - RAD ONC
   - Adjuvant
     - HR POS
@@ -297,71 +347,3 @@ markmap:
         - **ANGEL**
           
              - [x] Any suspicious lesion receiving a biopsy
-- UPCOMING
-  - Metastatic
-    - HER2
-      - 2
-        - **VISTA**
-          
-             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
-          
-          
-             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
-      - 3
-        - **VISTA**
-          
-             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
-          
-          
-             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
-      - 4
-        - **VISTA**
-          
-             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
-          
-          
-             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
-    - HR POS
-      - 2
-        - **VISTA**
-          
-             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
-          
-          
-             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
-      - 3
-        - **VISTA**
-          
-             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
-          
-          
-             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
-      - 4
-        - **VISTA**
-          
-             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
-          
-          
-             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
-    - TNBC
-      - 2
-        - **VISTA**
-          
-             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
-          
-          
-             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
-      - 3
-        - **VISTA**
-          
-             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
-          
-          
-             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
-      - 4
-        - **VISTA**
-          
-             - [x] HER2 3+ OR 2+ by IHC via CB11 antibody (Leica) or anti HER2/neu (4B5) (VENTANA)
-          
-          
-             - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
