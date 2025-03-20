@@ -38,6 +38,10 @@ markmap:
              - [x] T1 to T3, with smallest size 6mm. Any N
         - ADEPT
           
+             - [x] ER+ OR PR+ with HER2+ disease T1A/B/C. N1mi allowed. 
+          
+          
+             - [x] No more than 8 weeks of ET
     - HR POS
       - NO LINE
         - **CAMBRIA-1**
@@ -145,6 +149,12 @@ markmap:
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
         - TBCRC 064
           
+        - QuantifyHER
+          
+             - [x] ER+ IHC 1+ who will start Enhertu (Or within 30 days after starting)
+          
+          
+             - [x] Tissue from IHC1+ samples must be sent. Decalcified bone tissue ineligible
       - 3
         - OPERA-1
           
@@ -161,6 +171,12 @@ markmap:
           
           
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
+        - QuantifyHER
+          
+             - [x] ER+ IHC 1+ who will start Enhertu (Or within 30 days after starting)
+          
+          
+             - [x] Tissue from IHC1+ samples must be sent. Decalcified bone tissue ineligible
       - 4
         - **VISTA**
           
@@ -168,9 +184,12 @@ markmap:
           
           
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
-      - NO LINE
         - QuantifyHER
           
+             - [x] ER+ IHC 1+ who will start Enhertu (Or within 30 days after starting)
+          
+          
+             - [x] Tissue from IHC1+ samples must be sent. Decalcified bone tissue ineligible
     - TNBC
       - 1
         - **TBCRC 061**
@@ -190,6 +209,12 @@ markmap:
              - [x] Receipt of Immunotherapy in the advanced setting
         - TBCRC 064
           
+        - QuantifyHER
+          "
+             - [x] ER- IHC 1+ who will start Enhertu (Or within 30 days after starting)
+          
+          
+             - [x] Tissue from IHC1+ samples must be sent. Decalcified bone tissue ineligible"
       - 3
         - **VISTA**
           
@@ -200,6 +225,12 @@ markmap:
         - **TBCRC 061**
           
              - [x] Receipt of Immunotherapy in the advanced setting
+        - QuantifyHER
+          
+             - [x] ER- IHC 1+ who will start Enhertu (Or within 30 days after starting)
+          
+          
+             - [x] Tissue from IHC1+ samples must be sent. Decalcified bone tissue ineligible"
       - 4
         - **VISTA**
           
@@ -207,9 +238,6 @@ markmap:
           
           
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
-      - NO LINE
-        - QuantifyHER
-          
   - Neoadjuvant
     - HER2
       - NO LINE
@@ -289,8 +317,12 @@ markmap:
         - FLEX
           
              - [x] T1 to T3, with smallest size 6mm. Any N
-        - **TNBC CT DNA Tissue Banking**
+        - **TNBC ctDNA Tissue Banking**
           
+             - [x] TNBC Stage II/III receiving NACT (+/- ICB)
+          
+          
+             - [x] ctDNA collected after Taxol and after AC, both before definitive surgery
 - RAD ONC
   - Adjuvant
     - HR POS
