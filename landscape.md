@@ -68,6 +68,9 @@ markmap:
         - FLEX
           
              - [x] T1 to T3, with smallest size 6mm. Any N
+        - ELEGANT
+          
+             - [x] ER+ High Risk (Defined by trial) between year 2 and 5 of adjuvant ET +/- CDK4/6i or PARPi
     - TNBC
       - NO LINE
         - **ICE COMPRESS / SWOG S2205**
@@ -339,13 +342,6 @@ markmap:
           
           
              - [x] ctDNA collected after Taxol and after AC, both before definitive surgery
-- Med ONC
-  - Adjuvant
-    - NO GROUP
-      - NO LINE
-        - ELEGANT
-          
-             - [x] ER+ High Risk (Defined by trial) between year 2 and 5 of adjuvant ET +/- CDK4/6i or PARPi
 - RAD ONC
   - Adjuvant
     - HR POS
