@@ -126,8 +126,6 @@ markmap:
           
           
              - [x] BRCA1/2 OR PALB2 (either germline or somatic) 
-        - TBCRC 064
-          
       - 2
         - **ELAINE-III**
           
@@ -149,6 +147,10 @@ markmap:
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
         - TBCRC 064
           
+             - [x] IHC 0+/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
+          
+          
+             - [x] ER+ HER2- must have progressed on or within 12 months of adjuvant ET, OR got minimum of 1L of ET. Participants must have received prior CDK4/6
         - QuantifyHER
           
              - [x] ER+ IHC 1+ who will start Enhertu (Or within 30 days after starting)
@@ -171,6 +173,12 @@ markmap:
           
           
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
+        - TBCRC 064
+          
+             - [x] IHC 0+/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
+          
+          
+             - [x] ER+ HER2- must have progressed on or within 12 months of adjuvant ET, OR got minimum of 1L of ET. Participants must have received prior CDK4/6
         - QuantifyHER
           
              - [x] ER+ IHC 1+ who will start Enhertu (Or within 30 days after starting)
@@ -197,6 +205,10 @@ markmap:
              - [x] Receipt of Immunotherapy in the advanced setting
         - TBCRC 064
           
+             - [x] IHC 0+/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
+          
+          
+             - [x] TNBC Strict 0-1 prior lines
       - 2
         - **VISTA**
           
@@ -209,6 +221,10 @@ markmap:
              - [x] Receipt of Immunotherapy in the advanced setting
         - TBCRC 064
           
+             - [x] IHC 0+/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
+          
+          
+             - [x] TNBC Strict 0-1 prior lines
         - QuantifyHER
           "
              - [x] ER- IHC 1+ who will start Enhertu (Or within 30 days after starting)
@@ -323,6 +339,13 @@ markmap:
           
           
              - [x] ctDNA collected after Taxol and after AC, both before definitive surgery
+- Med ONC
+  - Adjuvant
+    - NO GROUP
+      - NO LINE
+        - ELEGANT
+          
+             - [x] ER+ High Risk (Defined by trial) between year 2 and 5 of adjuvant ET +/- CDK4/6i or PARPi
 - RAD ONC
   - Adjuvant
     - HR POS
