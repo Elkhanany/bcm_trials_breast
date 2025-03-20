@@ -7,10 +7,6 @@ markmap:
 ---
 - MED ONC
   - Adjuvant
-    - NO GROUP
-      - NO LINE
-        - ADEPT
-          
     - HER2
       - NO LINE
         - **FLAMINGO -01**
@@ -40,6 +36,8 @@ markmap:
         - FLEX
           
              - [x] T1 to T3, with smallest size 6mm. Any N
+        - ADEPT
+          
     - HR POS
       - NO LINE
         - **CAMBRIA-1**
@@ -84,10 +82,6 @@ markmap:
           
              - [x] T1 to T3, with smallest size 6mm. Any N
   - Metastatic
-    - NO GROUP
-      - NO LINE
-        - QuantifyHER
-          
     - HER2
       - 1
         - **STOPHER2 / TBCRC 062**
@@ -174,6 +168,9 @@ markmap:
           
           
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
+      - NO LINE
+        - QuantifyHER
+          
     - TNBC
       - 1
         - **TBCRC 061**
@@ -210,6 +207,9 @@ markmap:
           
           
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
+      - NO LINE
+        - QuantifyHER
+          
   - Neoadjuvant
     - HER2
       - NO LINE
@@ -289,9 +289,6 @@ markmap:
         - FLEX
           
              - [x] T1 to T3, with smallest size 6mm. Any N
-  - Nero
-    - NO GROUP
-      - NO LINE
         - **TNBC CT DNA Tissue Banking**
           
 - RAD ONC
