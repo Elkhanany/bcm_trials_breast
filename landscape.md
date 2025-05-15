@@ -15,18 +15,6 @@ markmap:
           
           
              - [x] TWO cohorst depending on HLA-A-02
-        - **CompassHER2 RD**
-          
-             - [x] Prior NACT with 6 or more cycles of chemo (at least 9 weeks or THP). If was part of EA1181, must receive 2 more cycles of chemo
-          
-          
-             - [x] ER+ must be ypN+ (1/2/3) with ypT1/2/3. Weak ER+ can be ypN0. Will be randomized to TDM1 vs TDM1 and Tucatinib. May receive ≤ 1 cycle adjuvant T-DM1 prior to registration
-        - **CompassHER2 RD**
-          
-             - [x] Prior NACT with 6 or more cycles of chemo (at least 9 weeks or THP). If was part of EA1181, must receive 2 more cycles of chemo
-          
-          
-             - [x] ER- can be ypT1/2/3 with ypN0/1/2/3. Will be randomized to TDM1 vs TDM1 and Tucatinib. May receive ≤ 1 cycle adjuvant T-DM1 prior to registration
         - **ICE COMPRESS / SWOG S2205**
           
              - [x] NACT or Adjuvant Chemo with Taxanes (either weekly Taxol, Carbo Taxol or CarboTaxotere).
@@ -307,9 +295,6 @@ markmap:
           
           
              - [x] High 2 on MP
-        - **CDK4i PF0060**
-          
-             - [x] T1 to T3 POSTMENOpausal, with smallest size 15mm. Any N. Excludes T4 and N3
         - FLEX
           
              - [x] T1 to T3, with smallest size 6mm. Any N
