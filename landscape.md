@@ -77,14 +77,6 @@ markmap:
           
              - [x] T1 to T3, with smallest size 6mm. Any N
   - Metastatic
-    - NO GROUP
-      - 3
-        - **TBCRC 064**
-          
-             - [x] IHC 0+/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
-          
-          
-             - [x] TNBC Strict 0-1 prior lines, but can join from Enhertu 2L to Dato
     - HER2
       - 1
         - **STOPHER2 / TBCRC 062**
@@ -231,7 +223,7 @@ markmap:
           
              - [x] TNBC Strict 0-1 prior lines, but can join from Enhertu 2L to Dato
         - QuantifyHER
-          "
+          
              - [x] ER- IHC 1+ who will start Enhertu (Or within 30 days after starting)
           
           
@@ -246,6 +238,12 @@ markmap:
         - **TBCRC 061**
           
              - [x] Receipt of Immunotherapy in the advanced setting
+        - **TBCRC 064**
+          
+             - [x] IHC 0+/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
+          
+          
+             - [x] TNBC Strict 0-1 prior lines, but can join from Enhertu 2L to Dato
         - QuantifyHER
           
              - [x] ER- IHC 1+ who will start Enhertu (Or within 30 days after starting)
