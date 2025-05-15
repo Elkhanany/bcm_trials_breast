@@ -21,7 +21,7 @@ markmap:
           
           
              - [x] Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
-        - FLEX
+        - **FLEX**
           
              - [x] T1 to T3, with smallest size 6mm. Any N
         - ADEPT
@@ -53,7 +53,7 @@ markmap:
           
           
              - [x] RS N1 <26. RS N0 21-25. RS N0 16-20 WITH T minimum at 30mm (G1), 20mm (G2) or 10mm (G3)
-        - FLEX
+        - **FLEX**
           
              - [x] T1 to T3, with smallest size 6mm. Any N
         - ELEGANT
@@ -73,10 +73,18 @@ markmap:
           
           
              - [x] Adju RT  and Pembro, followed by registration
-        - FLEX
+        - **FLEX**
           
              - [x] T1 to T3, with smallest size 6mm. Any N
   - Metastatic
+    - NO GROUP
+      - 3
+        - **TBCRC 064**
+          
+             - [x] IHC 0+/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
+          
+          
+             - [x] TNBC Strict 0-1 prior lines, but can join from Enhertu 2L to Dato
     - HER2
       - 1
         - **STOPHER2 / TBCRC 062**
@@ -111,7 +119,7 @@ markmap:
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
     - HR POS
       - 1
-        - EvoPAR-Breast01
+        - **EvoPAR-Breast01**
           
              - [x] DenoVo metastatic opr 1ry resistant ER+ (>1%)
           
@@ -136,12 +144,12 @@ markmap:
           
           
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
-        - TBCRC 064
+        - **TBCRC 064**
           
-             - [x] IHC 0+/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
+             - [x] IHC 0/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
           
           
-             - [x] ER+ HER2- must have progressed on or within 12 months of adjuvant ET, OR got minimum of 1L of ET. Participants must have received prior CDK4/6
+             - [x] ER+ HER2- must have progressed on or within 12 months of adjuvant ET, OR got minimum of 1L of ET (including prior CDK4/6)
         - QuantifyHER
           
              - [x] ER+ IHC 1+ who will start Enhertu (Or within 30 days after starting)
@@ -164,12 +172,12 @@ markmap:
           
           
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
-        - TBCRC 064
+        - **TBCRC 064**
           
-             - [x] IHC 0+/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
+             - [x] IHC 0/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
           
           
-             - [x] ER+ HER2- must have progressed on or within 12 months of adjuvant ET, OR got minimum of 1L of ET. Participants must have received prior CDK4/6
+             - [x] Received 1st Line ET (including CDK4/6i), 2nd Line,
         - QuantifyHER
           
              - [x] ER+ IHC 1+ who will start Enhertu (Or within 30 days after starting)
@@ -183,6 +191,12 @@ markmap:
           
           
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
+        - **TBCRC 064**
+          
+             - [x] IHC 0/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
+          
+          
+             - [x] Received 1st Line ET (including CDK4/6i), 2nd Line, and on 3rd Line ADC. Can join directly to ADC2 at 4th L from Dato or Enhertu
         - QuantifyHER
           
              - [x] ER+ IHC 1+ who will start Enhertu (Or within 30 days after starting)
@@ -194,12 +208,12 @@ markmap:
         - **TBCRC 061**
           
              - [x] Receipt of Immunotherapy in the advanced setting
-        - TBCRC 064
+        - **TBCRC 064**
           
              - [x] IHC 0+/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
           
           
-             - [x] TNBC Strict 0-1 prior lines
+             - [x] TNBC Strict 0-1 prior lines.
       - 2
         - **VISTA**
           
@@ -210,12 +224,12 @@ markmap:
         - **TBCRC 061**
           
              - [x] Receipt of Immunotherapy in the advanced setting
-        - TBCRC 064
+        - **TBCRC 064**
           
              - [x] IHC 0+/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
           
           
-             - [x] TNBC Strict 0-1 prior lines
+             - [x] TNBC Strict 0-1 prior lines, but can join from Enhertu 2L to Dato
         - QuantifyHER
           "
              - [x] ER- IHC 1+ who will start Enhertu (Or within 30 days after starting)
@@ -260,7 +274,7 @@ markmap:
           
           
              - [x] Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
-        - FLEX
+        - **FLEX**
           
              - [x] T1 to T3, with smallest size 6mm. Any N
     - HR POS
@@ -271,7 +285,7 @@ markmap:
           
           
              - [x] High Risk ER+ (Grade III, Age <50, ER < 6/8 OR Ki67 >29%). Will receive weekly Taxol with ddAC
-        - EVANGELINE
+        - **EVANGELINE**
           
              - [x] Clinical T2 or T3 and N0 or N1 with Grade I and II
           
@@ -295,7 +309,7 @@ markmap:
           
           
              - [x] High 2 on MP
-        - FLEX
+        - **FLEX**
           
              - [x] T1 to T3, with smallest size 6mm. Any N
     - TNBC
@@ -318,7 +332,7 @@ markmap:
           
           
              - [x] No Stage IIIC, IIIB T4 N+ OR IBC
-        - FLEX
+        - **FLEX**
           
              - [x] T1 to T3, with smallest size 6mm. Any N
         - **TNBC ctDNA Tissue Banking**
