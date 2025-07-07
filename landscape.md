@@ -7,6 +7,14 @@ markmap:
 ---
 - MED ONC
   - Adjuvant
+    - NO GROUP
+      - NO LINE
+        - **LoTAM**
+          
+             - [x] Stage 1 and 2A (T < 30mm, N0) ER+ (>10%) HER2- Breast Cancer
+          
+          
+             - [x] LOW Genomic risk (MP LOW, RS <26 OR ProSigna <40)
     - HER2
       - NO LINE
         - **FLAMINGO -01**
@@ -78,16 +86,6 @@ markmap:
              - [x] T1 to T3, with smallest size 6mm. Any N
   - Metastatic
     - HER2
-      - 1
-        - **STOPHER2 / TBCRC 062**
-          
-             - [x] On 1st Line ABC HER2+ for 3 or more years. If brain disease, has to be stable for 2 or more years
-          
-          
-             - [x] Continue ET therapy. Can be enrolled if ET was changed
-        - **STOPHER2 / TBCRC 062**
-          
-             - [x] On 1st Line ABC HER2+ for 3 or more years. If brain disease, has to be stable for 2 or more years
       - 2
         - **VISTA**
           
@@ -124,7 +122,7 @@ markmap:
           
           
              - [x] No priot Abema in adjuvant or metastatic setting
-        - OPERA-1
+        - **OPERA-1**
           
              - [x] Post 1st Line progression while on ET/CDK , adjuvant ET or within 2 years post ET. No prior Chemo in Stage 4. 
           
@@ -149,7 +147,7 @@ markmap:
           
              - [x] Tissue from IHC1+ samples must be sent. Decalcified bone tissue ineligible
       - 3
-        - OPERA-1
+        - **OPERA-1**
           
              - [x] Post 2 Lines Line of ET, lasting at least 6 months. No prior Chemo in Stage 4. 
           
@@ -384,6 +382,15 @@ markmap:
           
           
              - [x] Magseed placement prior to NAC
+  - Postsurgical
+    - NO GROUP
+      - NO LINE
+        - **LoTAM**
+          
+             - [x] Stage 1 and 2A (T < 30mm, N0) ER+ (>10%) HER2- Breast Cancer
+          
+          
+             - [x] LOW Genomic risk (MP LOW, RS <26 OR ProSigna <40)
   - Presurgical
     - NO GROUP
       - NO LINE
