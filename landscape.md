@@ -7,14 +7,6 @@ markmap:
 ---
 - MED ONC
   - Adjuvant
-    - NO GROUP
-      - NO LINE
-        - **LoTAM**
-          
-             - [x] Stage 1 and 2A (T < 30mm, N0) ER+ (>10%) HER2- Breast Cancer
-          
-          
-             - [x] LOW Genomic risk (MP LOW, RS <26 OR ProSigna <40)
     - HER2
       - NO LINE
         - **FLAMINGO -01**
@@ -67,6 +59,12 @@ markmap:
         - ELEGANT
           
              - [x] ER+ High Risk (Defined by trial) between year 2 and 5 of adjuvant ET +/- CDK4/6i or PARPi
+        - **LoTAM**
+          
+             - [x] Stage 1 and 2A (T < 30mm, N0) ER+ (>10%) HER2- Breast Cancer
+          
+          
+             - [x] LOW Genomic risk (MP LOW, RS <26 OR ProSigna <40)
     - TNBC
       - NO LINE
         - **ICE COMPRESS / SWOG S2205**
@@ -383,7 +381,7 @@ markmap:
           
              - [x] Magseed placement prior to NAC
   - Postsurgical
-    - NO GROUP
+    - HR POS
       - NO LINE
         - **LoTAM**
           
