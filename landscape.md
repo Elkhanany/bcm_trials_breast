@@ -5,6 +5,29 @@ markmap:
   maxWidth: 200
   colorFreezeLevel: 6
 ---
+- CLOSED
+  - Adjuvant
+    - HR POS
+      - NO LINE
+        - **MA39**
+          
+             - [x] Newly Diagnosis of IDC w/ no metastisis 
+          Treated with BCS or Mastectomy with no residual disease 
+  - Peri-Surgical
+    - NO GROUP
+      - NO LINE
+        - **CHEST**
+          
+             - [x] Undergoing Mastectomy + Reconstruction 
+  - Presurgical
+    - NO GROUP
+      - NO LINE
+        - **ATUSA-iSONO**
+          
+             - [x] Women with a suspected breast lesion in one of both breasts
+          
+          
+             - [x] Disease T1c or larger 
 - MED ONC
   - Adjuvant
     - HER2
@@ -336,13 +359,6 @@ markmap:
           
              - [x] ctDNA collected after Taxol and after AC, both before definitive surgery
 - RAD ONC
-  - Adjuvant
-    - HR POS
-      - NO LINE
-        - **MA39**
-          
-             - [x] Newly Diagnosis of IDC w/ no metastisis 
-          Treated with BCS or Mastectomy with no residual disease 
   - Postsurgical
     - NO GROUP
       - NO LINE
@@ -356,9 +372,6 @@ markmap:
   - Peri-Surgical
     - NO GROUP
       - NO LINE
-        - **CHEST**
-          
-             - [x] Undergoing Mastectomy + Reconstruction 
         - **Breast ATLAS**
           
              - [x] Undergoing PPX Mastectomy
@@ -392,12 +405,6 @@ markmap:
   - Presurgical
     - NO GROUP
       - NO LINE
-        - **ATUSA-iSONO**
-          
-             - [x] Women with a suspected breast lesion in one of both breasts
-          
-          
-             - [x] Disease T1c or larger 
         - **BCM TISSUE COLLECTION**
           
              - [x] Suspicious lesion receiving an U/S guided biopsy with birads 4b-5
