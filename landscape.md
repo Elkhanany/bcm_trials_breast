@@ -105,6 +105,8 @@ markmap:
         - TRAILBLASER
           
              - [x] Progression post 1st Line
+        - EVOLVE-DBT
+          
         - **Bicycle-201**
           
              - [x] Received minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
@@ -409,12 +411,6 @@ markmap:
           
           
              - [x] ctDNA collected after Taxol and after AC, both before definitive surgery
-- Med Onc
-  - Metastatic
-    - NO GROUP
-      - 2
-        - EVOLVE-DBT
-          
 - RAD ONC
   - Postsurgical
     - NO GROUP
