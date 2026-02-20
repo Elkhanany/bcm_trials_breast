@@ -30,11 +30,6 @@ markmap:
              - [x] Disease T1c or larger 
 - MED ONC
   - Adjuvant
-    - NO GROUP
-      - NO LINE
-        - MK-2870 [OPENING 05/2026]
-          
-             - [x] Have residual Disease post NACT
     - HER2
       - NO LINE
         - **FLAMINGO -01**
@@ -86,6 +81,9 @@ markmap:
           
           
              - [x] Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
+        - MK-2870 [OPENING 05/2026]
+          
+             - [x] Have residual Disease post NACT
         - **OptimICE-PCR**
           
              - [x] TNBC (ER/PR <10%)  T1cN1-2 or T2-4N0-2 with ypT0 OR ypTis
@@ -96,68 +94,6 @@ markmap:
           
              - [x] T1 to T3, with smallest size 6mm. Any N
   - Metastatic
-    - NO GROUP
-      - 1
-        - OPERA-02 [OPENING Fall 2026]
-          
-             - [x] DeNovo or recurrent in 1st Line using Palazestrant
-      - 2
-        - TRAILBLASER
-          
-             - [x] Progression post 1st Line
-        - EVOLVE-DBT
-          
-        - **Bicycle-201**
-          
-             - [x] Received minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
-          
-          
-             - [x] NECTIN4 amplification required. Around 60% of Pts
-      - 3
-        - Verastem [OPENING 04/2026]
-          
-             - [x] Prior progression on CDK4/6i AND Fulvestrant
-          
-          
-             - [x] No more than 2 chemo lines
-        - **Bicycle-201**
-          
-             - [x] Received Endocrine therapy (no limits) and a minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
-          
-          
-             - [x] NECTIN4 amplification required. Around 60% of Pts
-        - **Bicycle-201**
-          
-             - [x] Received minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
-          
-          
-             - [x] NECTIN4 amplification required. Around 60% of Pts
-      - 4
-        - Verastem [OPENING 04/2026]
-          
-             - [x] Prior progression on CDK4/6i AND Fulvestrant
-          
-          
-             - [x] No more than 2 chemo lines
-        - **Bicycle-201**
-          
-             - [x] Received Endocrine therapy (no limits) and a minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
-          
-          
-             - [x] NECTIN4 amplification required. Around 60% of Pts
-        - **Bicycle-201**
-          
-             - [x] Received minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
-          
-          
-             - [x] NECTIN4 amplification required. Around 60% of Pts
-      - 5
-        - **Bicycle-201**
-          
-             - [x] Received Endocrine therapy (no limits) and a minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
-          
-          
-             - [x] NECTIN4 amplification required. Around 60% of Pts
     - HER2
       - 2
         - **VISTA**
@@ -166,6 +102,9 @@ markmap:
           
           
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
+        - TRAILBLASER
+          
+             - [x] Progression post 1st Line
       - 3
         - **VISTA**
           
@@ -182,6 +121,9 @@ markmap:
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
     - HR POS
       - 1
+        - OPERA-02 [OPENING Fall 2026]
+          
+             - [x] DeNovo or recurrent in 1st Line using Palazestrant
         - **EvoPAR-Breast01**
           
              - [x] DenoVo metastatic opr 1ry resistant ER+ (>1%)
@@ -207,6 +149,11 @@ markmap:
           
           
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
+        - TRAILBLASER
+          
+             - [x] Progression post 1st Line
+        - EVOLVE-DBT
+          
         - **TBCRC 064**
           
              - [x] IHC 0/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
@@ -235,12 +182,24 @@ markmap:
           
           
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
+        - Verastem [OPENING 04/2026]
+          
+             - [x] Prior progression on CDK4/6i AND Fulvestrant
+          
+          
+             - [x] No more than 2 chemo lines
         - **TBCRC 064**
           
              - [x] IHC 0/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
           
           
              - [x] Received 1st Line ET (including CDK4/6i), 2nd Line,
+        - **Bicycle-201**
+          
+             - [x] Received Endocrine therapy (no limits) and a minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
+          
+          
+             - [x] NECTIN4 amplification required. Around 60% of Pts
         - **QuantifyHER**
           
              - [x] ER+ IHC 1+ who will start Enhertu (Or within 30 days after starting)
@@ -254,18 +213,37 @@ markmap:
           
           
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
+        - Verastem [OPENING 04/2026]
+          
+             - [x] Prior progression on CDK4/6i AND Fulvestrant
+          
+          
+             - [x] No more than 2 chemo lines
         - **TBCRC 064**
           
              - [x] IHC 0/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
           
           
              - [x] Received 1st Line ET (including CDK4/6i), 2nd Line, and on 3rd Line ADC. Can join directly to ADC2 at 4th L from Dato or Enhertu
+        - **Bicycle-201**
+          
+             - [x] Received Endocrine therapy (no limits) and a minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
+          
+          
+             - [x] NECTIN4 amplification required. Around 60% of Pts
         - **QuantifyHER**
           
              - [x] ER+ IHC 1+ who will start Enhertu (Or within 30 days after starting)
           
           
              - [x] Tissue from IHC1+ samples must be sent. Decalcified bone tissue ineligible
+      - 5
+        - **Bicycle-201**
+          
+             - [x] Received Endocrine therapy (no limits) and a minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
+          
+          
+             - [x] NECTIN4 amplification required. Around 60% of Pts
       - NO LINE
         - NCBRE [OPENING Fall 2026]
           
@@ -291,6 +269,11 @@ markmap:
           
           
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
+        - TRAILBLASER
+          
+             - [x] Progression post 1st Line
+        - EVOLVE-DBT
+          
         - **TBCRC 061**
           
              - [x] Receipt of Immunotherapy in the advanced setting
@@ -300,6 +283,12 @@ markmap:
           
           
              - [x] TNBC Strict 0-1 prior lines, but can join from Enhertu 2L to Dato
+        - **Bicycle-201**
+          
+             - [x] Received minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
+          
+          
+             - [x] NECTIN4 amplification required. Around 60% of Pts
         - **QuantifyHER**
           
              - [x] ER- IHC 1+ who will start Enhertu (Or within 30 days after starting)
@@ -316,6 +305,12 @@ markmap:
         - **TBCRC 061**
           
              - [x] Receipt of Immunotherapy in the advanced setting
+        - **Bicycle-201**
+          
+             - [x] Received minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
+          
+          
+             - [x] NECTIN4 amplification required. Around 60% of Pts
         - **TBCRC 064**
           
              - [x] IHC 0+/1/2 with NEG FISH. Research Bx at baseline ADC1, 3Wk ADC1, Baseline ADC and progression ADC2
@@ -335,6 +330,12 @@ markmap:
           
           
              - [x] Meaurable disease with at least one site of injection. Can be 2nd line and after, with no limits on prior lines. 
+        - **Bicycle-201**
+          
+             - [x] Received minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
+          
+          
+             - [x] NECTIN4 amplification required. Around 60% of Pts
   - Neoadjuvant
     - HER2
       - NO LINE
