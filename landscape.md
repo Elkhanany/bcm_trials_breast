@@ -30,6 +30,11 @@ markmap:
              - [x] Disease T1c or larger 
 - MED ONC
   - Adjuvant
+    - NO GROUP
+      - NO LINE
+        - MK-2870 [OPENING 05/2026]
+          
+             - [x] Have residual Disease post NACT
     - HER2
       - NO LINE
         - **FLAMINGO -01**
@@ -47,7 +52,7 @@ markmap:
         - **FLEX**
           
              - [x] T1 to T3, with smallest size 6mm. Any N
-        - ADEPT
+        - **ADEPT [CLOSED 03/2026]**
           
              - [x] ER+ OR PR+ with HER2+ disease T1A/B/C. N1mi allowed. 
           
@@ -55,15 +60,6 @@ markmap:
              - [x] No more than 8 weeks of ET
     - HR POS
       - NO LINE
-        - **CAMBRIA-1**
-          
-             - [x] Intermediate and High risk to randomize between adjuvant year 2 : 5 to either continue adj. ET SoC vs oral SERD
-          
-          
-             - [x] Intermediate: T3 N0 | T1c/T2 N1 [2-3 LN] | T1c/T2 N0 (Grade III, KI67 >= 20%, LumB/RS26, or prior chemotherapy)
-          
-          
-             - [x] High: Stage III | T1c/T2 N1 [2-3]  (Grade III, KI67 >= 20%, LumB/RS26) | T1c/T2 N1 [1/3] (Grade III, KI67 >= 20%, LumB/RS26)
         - **ICE COMPRESS / SWOG S2205**
           
              - [x] NACT or Adjuvant Chemo with Taxanes (either weekly Taxol, Carbo Taxol or CarboTaxotere).
@@ -79,15 +75,9 @@ markmap:
         - **FLEX**
           
              - [x] T1 to T3, with smallest size 6mm. Any N
-        - ELEGANT
+        - **ELEGANT**
           
              - [x] ER+ High Risk (Defined by trial) between year 2 and 5 of adjuvant ET +/- CDK4/6i or PARPi
-        - **LoTAM**
-          
-             - [x] Stage 1 and 2A (T < 30mm, N0) ER+ (>10%) HER2- Breast Cancer
-          
-          
-             - [x] LOW Genomic risk (MP LOW, RS <26 OR ProSigna <40)
     - TNBC
       - NO LINE
         - **ICE COMPRESS / SWOG S2205**
@@ -106,6 +96,66 @@ markmap:
           
              - [x] T1 to T3, with smallest size 6mm. Any N
   - Metastatic
+    - NO GROUP
+      - 1
+        - OPERA-02 [OPENING Fall 2026]
+          
+             - [x] DeNovo or recurrent in 1st Line using Palazestrant
+      - 2
+        - TRAILBLASER
+          
+             - [x] Progression post 1st Line
+        - **Bicycle-201**
+          
+             - [x] Received minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
+          
+          
+             - [x] NECTIN4 amplification required. Around 60% of Pts
+      - 3
+        - Verastem [OPENING 04/2026]
+          
+             - [x] Prior progression on CDK4/6i AND Fulvestrant
+          
+          
+             - [x] No more than 2 chemo lines
+        - **Bicycle-201**
+          
+             - [x] Received Endocrine therapy (no limits) and a minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
+          
+          
+             - [x] NECTIN4 amplification required. Around 60% of Pts
+        - **Bicycle-201**
+          
+             - [x] Received minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
+          
+          
+             - [x] NECTIN4 amplification required. Around 60% of Pts
+      - 4
+        - Verastem [OPENING 04/2026]
+          
+             - [x] Prior progression on CDK4/6i AND Fulvestrant
+          
+          
+             - [x] No more than 2 chemo lines
+        - **Bicycle-201**
+          
+             - [x] Received Endocrine therapy (no limits) and a minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
+          
+          
+             - [x] NECTIN4 amplification required. Around 60% of Pts
+        - **Bicycle-201**
+          
+             - [x] Received minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
+          
+          
+             - [x] NECTIN4 amplification required. Around 60% of Pts
+      - 5
+        - **Bicycle-201**
+          
+             - [x] Received Endocrine therapy (no limits) and a minimum of 1 chemo therapy in the metastatic setting, up to three chemo lines
+          
+          
+             - [x] NECTIN4 amplification required. Around 60% of Pts
     - HER2
       - 2
         - **VISTA**
@@ -143,7 +193,7 @@ markmap:
           
           
              - [x] No priot Abema in adjuvant or metastatic setting
-        - **OPERA-1**
+        - **OPERA-1 [CLOSED 06/2026]**
           
              - [x] Post 1st Line progression while on ET/CDK , adjuvant ET or within 2 years post ET. No prior Chemo in Stage 4. 
           
@@ -161,14 +211,14 @@ markmap:
           
           
              - [x] ER+ HER2- must have progressed on or within 12 months of adjuvant ET, OR got minimum of 1L of ET (including prior CDK4/6)
-        - QuantifyHER
+        - **QuantifyHER**
           
              - [x] ER+ IHC 1+ who will start Enhertu (Or within 30 days after starting)
           
           
              - [x] Tissue from IHC1+ samples must be sent. Decalcified bone tissue ineligible
       - 3
-        - **OPERA-1**
+        - **OPERA-1 [CLOSED 06/2026]**
           
              - [x] Post 2 Lines Line of ET, lasting at least 6 months. No prior Chemo in Stage 4. 
           
@@ -189,7 +239,7 @@ markmap:
           
           
              - [x] Received 1st Line ET (including CDK4/6i), 2nd Line,
-        - QuantifyHER
+        - **QuantifyHER**
           
              - [x] ER+ IHC 1+ who will start Enhertu (Or within 30 days after starting)
           
@@ -208,12 +258,19 @@ markmap:
           
           
              - [x] Received 1st Line ET (including CDK4/6i), 2nd Line, and on 3rd Line ADC. Can join directly to ADC2 at 4th L from Dato or Enhertu
-        - QuantifyHER
+        - **QuantifyHER**
           
              - [x] ER+ IHC 1+ who will start Enhertu (Or within 30 days after starting)
           
           
              - [x] Tissue from IHC1+ samples must be sent. Decalcified bone tissue ineligible
+      - NO LINE
+        - NCBRE [OPENING Fall 2026]
+          
+             - [x] ILC ER+ PR+ HER2- with ERBB2 mutation.
+          
+          
+             - [x] T1c (Min size 15mm) N0/N1/N2
     - TNBC
       - 1
         - **TBCRC 061**
@@ -241,7 +298,7 @@ markmap:
           
           
              - [x] TNBC Strict 0-1 prior lines, but can join from Enhertu 2L to Dato
-        - QuantifyHER
+        - **QuantifyHER**
           
              - [x] ER- IHC 1+ who will start Enhertu (Or within 30 days after starting)
           
@@ -263,7 +320,7 @@ markmap:
           
           
              - [x] TNBC Strict 0-1 prior lines, but can join from Enhertu 2L to Dato
-        - QuantifyHER
+        - **QuantifyHER**
           
              - [x] ER- IHC 1+ who will start Enhertu (Or within 30 days after starting)
           
@@ -302,7 +359,7 @@ markmap:
           
           
              - [x] High Risk ER+ (Grade III, Age <50, ER < 6/8 OR Ki67 >29%). Will receive weekly Taxol with ddAC
-        - **EVANGELINE**
+        - **EVANGELINE [CLOSING 08/2026]**
           
              - [x] Clinical T2 or T3 and N0 or N1 with Grade I and II
           
@@ -314,12 +371,6 @@ markmap:
           
           
              - [x] Not for Taxotere Cytoxan. Not for prior Taxane exposure. No pre-existing Neuropathy or Raynaud's
-        - NCBRE
-          
-             - [x] ILC ER+ PR+ HER2- with ERBB2 mutation.
-          
-          
-             - [x] T1c (Min size 15mm) N0/N1/N2
         - **S2206**
           
              - [x] Stage II and III, including IBC. ER+ or PR+ per CAP (>1%)
@@ -358,6 +409,12 @@ markmap:
           
           
              - [x] ctDNA collected after Taxol and after AC, both before definitive surgery
+- Med Onc
+  - Metastatic
+    - NO GROUP
+      - 2
+        - EVOLVE-DBT
+          
 - RAD ONC
   - Postsurgical
     - NO GROUP
